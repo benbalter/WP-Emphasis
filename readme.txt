@@ -4,7 +4,7 @@ Donate link: http://ben.balter.com
 Tags: emphasis, highlight, nyt, new york times, permalinks
 Requires at least: 3.0
 Tested up to: 3.1
-Stable tag: 0.1
+Stable tag: 0.2
 
 One-click implementation of the New York Times open-source emphasis script for highlighting and permalinking text.
 
@@ -15,7 +15,7 @@ One-click implementation of the [New York Times open-source emphasis script](htt
 In their own words:
 > Emphasis provides dynamic paragraph-specific anchor links and 
 > the ability to highlight text in a document, all of which is 
-> made available in the URL hash so it can be emailed, bookmarked, or shared."
+> made available in the URL hash so it can be emailed, bookmarked, or shared.
 
 The plugin allows for permalinking and highlighting of text on a paragraph and sentence level. No need to set anything up. Just install, tap shift twice, and start highlighting.
 
@@ -37,3 +37,7 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 = 0.1 =
 * Initial release
+
+= 0.2 =
+* Added support for SCRIPT_DEBUG (includes non-minified source)
+* Moved action from init hook to wp_enqueue_script hook
