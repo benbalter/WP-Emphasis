@@ -6,11 +6,11 @@ Requires at least: 3.0
 Tested up to: 3.1
 Stable tag: 0.1
 
-One-click implementation of the New York Times open source emphasis script for highlighting and permalinking text.
+One-click implementation of the New York Times open-source emphasis script for highlighting and permalinking text.
 
 == Description ==
 
-One-click implementation of the [New York Times open source emphasis script](http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/) which allows users to highlight and link to specific text within an article or post.
+One-click implementation of the [New York Times open-source emphasis script](http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/) which allows users to highlight and link to specific text within an article or post.
 
 The plugin allows for permalinking and highlighting of text on a paragraph and sentence level. No need to set anything up. Just install, tap shift twice, and start highlighting.
 
