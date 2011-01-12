@@ -12,6 +12,11 @@ One-click implementation of the New York Times open-source emphasis script for h
 
 One-click implementation of the [New York Times open-source emphasis script](http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/) which allows users to highlight and link to specific text within an article or post.
 
+In their own words:
+> Emphasis provides dynamic paragraph-specific anchor links and 
+> the ability to highlight text in a document, all of which is 
+> made available in the URL hash so it can be emailed, bookmarked, or shared."
+
 The plugin allows for permalinking and highlighting of text on a paragraph and sentence level. No need to set anything up. Just install, tap shift twice, and start highlighting.
 
 See [The New York Times](http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/) for syntax more information on general usage.
