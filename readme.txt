@@ -16,7 +16,7 @@ The plugin allows for permalinking and highlighting of text on a paragraph and s
 
 See [The New York Times](http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/) for syntax more information on general usage.
 
-Questions, comments, suggestions? Please leave them on the [WP Emphasis Plugin page](http://ben.balter.com/2011/01/11/wordpress-emphasis-plugin/)
+Questions, comments, suggestions? Please leave them on the [WP Emphasis Plugin page](http://ben.balter.com/2011/01/11/wordpress-emphasis-plugin/).
 
 == Installation ==
 
