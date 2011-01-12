@@ -15,6 +15,6 @@ function wp_emphasis_enqueue() {
 
 }
 
-add_action('init', 'wp_emphasis_enqueue');
+add_action('wp_enqueue_scripts', 'wp_emphasis_enqueue');
 
 ?>
