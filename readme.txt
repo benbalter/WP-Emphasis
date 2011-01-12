@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: benbalter
 Donate link: http://ben.balter.com
-Tags: emphasis, highlight, nyt, new york times
+Tags: emphasis, highlight, nyt, new york times, permalinks
 Requires at least: 3.0
 Tested up to: 3.1
 Stable tag: 0.1
@@ -12,7 +12,7 @@ One-click implementation of the New York Times open source emphasis script for h
 
 One-click implementation of the [New York Times open source emphasis script](http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/) which allows users to highlight and link to specific text within an article or post.
 
-The plugin allows for permalinking and highlighting of text on a paragraph and sentance level. No need to set anything up. Just install, tap shift twice, and start highlighting.
+The plugin allows for permalinking and highlighting of text on a paragraph and sentence level. No need to set anything up. Just install, tap shift twice, and start highlighting.
 
 See [The New York Times](http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/) for syntax more information on general usage.
 
