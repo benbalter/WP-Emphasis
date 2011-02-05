@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: benbalter
 Donate link: http://ben.balter.com
-Tags: emphasis, highlight, nyt, new york times, permalinks
+Tags: emphasis, highlight, nyt, new york times, permalinks, journalism
 Requires at least: 3.0
 Tested up to: 3.1
 Stable tag: 0.2
