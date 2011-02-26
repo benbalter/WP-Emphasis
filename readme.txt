@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: benbalter
 Donate link: http://ben.balter.com
-Tags: emphasis, highlight, nyt, new york times, permalinks, journalism
+Tags: emphasis, highlight, nyt, new york times, permalinks
 Requires at least: 3.0
 Tested up to: 3.1
 Stable tag: 0.2
@@ -35,9 +35,14 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 == Changelog ==
 
-= 0.1 =
-* Initial release
+= 0.3 = 
+* Ported to jQuery and added toggle under the readings settings page (default is native prototype build)
 
 = 0.2 =
 * Added support for SCRIPT_DEBUG (includes non-minified source)
 * Moved action from init hook to wp_enqueue_script hook
+
+= 0.1 =
+* Initial release
+
+
