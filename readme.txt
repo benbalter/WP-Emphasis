@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: benbalter
 Donate link: http://ben.balter.com
-Tags: emphasis, highlight, nyt, new york times, permalinks
+Tags: emphasis, highlight, nyt, new york times, permalinks, journalism
 Requires at least: 3.0
-Tested up to: 3.1
-Stable tag: 0.3
+Tested up to: 3.2
+Stable tag: 0.4
 
 One-click implementation of the New York Times open-source emphasis script for highlighting and permalinking text.
 
@@ -35,6 +35,9 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 == Changelog ==
 
+= 0.4 =
+* Updated jQuery to port with performance improvements
+
 = 0.3 = 
 * Ported to jQuery and added toggle under the readings settings page (default is native prototype build)
 
@@ -44,5 +47,3 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 = 0.1 =
 * Initial release
-
-
