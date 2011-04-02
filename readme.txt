@@ -47,3 +47,5 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 = 0.1 =
 * Initial release
+
+
