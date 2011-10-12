@@ -23,6 +23,8 @@ See [The New York Times](http://open.blogs.nytimes.com/2011/01/11/emphasis-updat
 
 Questions, comments, suggestions? Please leave them on the [WP Emphasis Plugin page](http://ben.balter.com/2011/01/11/wordpress-emphasis-plugin/).
 
+*Enjoy using WP Emphasis? Feel free to [make a small donation](http://ben.balter.com/donate/) to support the software’s continued development.*
+
 == Installation ==
 
 Install. That's it. No settings. No fuss.
