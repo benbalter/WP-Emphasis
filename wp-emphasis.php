@@ -3,7 +3,7 @@
 Plugin Name: WP Emphasis
 Plugin URI: http://ben.balter.com/2011/01/11/wordpress-emphasis-plugin/
 Description: WordPress implementation of NYT emphasis magic
-Version: 0.4
+Version: 0.5
 Author: Benjamin J. Balter
 Author URI: http://ben.balter.com/
 License: GPL2
@@ -17,8 +17,8 @@ function wp_emphasis_enqueue() {
 	$suffix = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '-src' : '';
 	
 	//lib and filename for jquery/prototype
-	$version = ( isset($options['jquery']) && $options['jquery'] ) ? '-jquery' : '';
-	$lib = ( isset($options['jquery']) && $options['jquery'] ) ? array('jquery') : array('prototype');
+	$version = ( !isset( $options['jquery'] ) || !$options['jquery'] ) ? '-prototype' : '';
+	$lib = ( !isset($options['jquery']) || !$options['jquery'] ) ? array('jquery') : array('prototype');
 	
 	// Tell WordPress to queue the script for inclusion in the footer
 	// Also incudes the prototype framework if it is not already in the queue
