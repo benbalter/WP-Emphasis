@@ -37,6 +37,9 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 == Changelog ==
 
+= 0.5 =
+* Made jQuery the default build
+
 = 0.4 =
 * Updated jQuery to port with performance improvements
 
