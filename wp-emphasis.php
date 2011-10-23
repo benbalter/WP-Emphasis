@@ -17,8 +17,8 @@ function wp_emphasis_enqueue() {
 	$suffix = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '-src' : '';
 	
 	//lib and filename for jquery/prototype
-	$version = ( !isset( $options['jquery'] ) || !$options['jquery'] ) ? '-prototype' : '';
-	$lib = ( !isset($options['jquery']) || !$options['jquery'] ) ? array('jquery') : array('prototype');
+	$version = ( isset( $options['jquery'] ) && !$options['jquery'] ) ? '-prototype' : '';
+	$lib = ( isset($options['jquery']) && !$options['jquery'] ) ? array('prototype') : array('jquery');
 	
 	// Tell WordPress to queue the script for inclusion in the footer
 	// Also incudes the prototype framework if it is not already in the queue
