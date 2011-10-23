@@ -39,6 +39,7 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 = 0.5 =
 * Made jQuery the default build
+* Updated source from community fork with bug fixes, better Internet Explorer compatibility
 
 = 0.4 =
 * Updated jQuery to port with performance improvements

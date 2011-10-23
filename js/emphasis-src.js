@@ -13,7 +13,7 @@
     - - - - - - - - - -
     
     Adapted for WordPres by Benjamin J. Balter (@BenBalter)
-	https://github.com/benbalter/Emphasis
+	http://wordpress.org/extend/plugins/wp-emphasis/
     
     - - - - - - - - - -
 
@@ -62,7 +62,7 @@ var Emphasis = {
         This uses some common markup for plain and simple paragraphs - those that are not empty, no classes.
         We use PrototypeJS for its css selector awesomeness, but your needs might be simpler (getElementsByTagName('p') etc.)
     */
-        this.paraSelctors      = $('.post p, .page p');
+        this.paraSelctors      = $('#article-content p');
 
     //  Class names
         this.classReady        = "emReady";
@@ -76,7 +76,16 @@ var Emphasis = {
     addCSS: function() {
     /*  Inject the minimum styles rules required */
         var st = document.createElement('style');
-        st.innerHTML = 'p.' + this.classActive + ' span { background-color:#f2f4f5; } p span.' + this.classHighlight + ' { background-color:#fff0b3; } span.' + this.classInfo + ' { position:absolute; margin:-1px 0px 0px -8px; padding:0; font-size:10px; background-color: transparent !important} span.' + this.classInfo + ' a { text-decoration: none; } a.' + this.classActiveAnchor + ' { color: #000; font-size: 11px; }';
+        st.setAttribute('type', 'text/css');
+        /* for validation goodness */
+        var stStr = 'p.' + this.classActive + ' span { background-color:#f2f4f5; } p span.' + this.classHighlight + ' { background-color:#fff0b3; } span.' + this.classInfo + ' { position:absolute; margin:-1px 0px 0px -8px; padding:0; font-size:10px; background-color: transparent !important} span.' + this.classInfo + ' a { text-decoration: none; } a.' + this.classActiveAnchor + ' { color: #000; font-size: 11px; }';
+        try {
+        /* try the sensible way */
+          st.innerHTML = stStr;
+        } catch(e) {
+        /* IE's way */
+          st.styleSheet.cssText = stStr;
+        }
         document.getElementsByTagName("head")[0].appendChild(st);
     },
 
