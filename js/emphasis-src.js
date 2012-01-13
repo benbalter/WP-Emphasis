@@ -62,7 +62,7 @@ var Emphasis = {
         This uses some common markup for plain and simple paragraphs - those that are not empty, no classes.
         We use jQuery for its css selector awesomeness, but your needs might be simpler ($('p') etc.)
     */
-        this.paraSelctors      = $(".entry p:not(:empty), .post p:not(:empty), article p:not(:empty)");
+        this.paraSelctors      = $(".entry p:not(:empty), .post p:not(:empty), .page p:not(:empty), article p:not(:empty)");
 
     //  Class names
         this.classReady        = "emReady";
