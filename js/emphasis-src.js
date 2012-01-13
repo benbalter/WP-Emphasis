@@ -60,9 +60,9 @@ var Emphasis = {
     /*
         Eligible Paragraphs
         This uses some common markup for plain and simple paragraphs - those that are not empty, no classes.
-        We use PrototypeJS for its css selector awesomeness, but your needs might be simpler (getElementsByTagName('p') etc.)
+        We use jQuery for its css selector awesomeness, but your needs might be simpler ($('p') etc.)
     */
-        this.paraSelctors      = $('#article-content p');
+        this.paraSelctors      = $(".entry p:not(:empty), .post p:not(:empty), article p:not(:empty)");
 
     //  Class names
         this.classReady        = "emReady";
