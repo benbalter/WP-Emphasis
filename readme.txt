@@ -37,6 +37,11 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 == Changelog ==
 
+= 0.6 =
+* Removed prototype support
+* Default paragraph selector now works with most installs
+* Updated Emphasis code to latest version
+
 = 0.5 =
 * Made jQuery the default build
 * Updated source from community fork with bug fixes, better Internet Explorer compatibility
