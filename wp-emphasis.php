@@ -11,8 +11,6 @@ License: GPL2
 
 function wp_emphasis_enqueue() {
 	
-	$options = get_option('wp_emphasis');
-
 	// If SCRIPT_DEBUG is defined in config.php, use the dev (non-minified) version of the script (h/t @nacin)
 	$suffix = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '-src' : '';
 		
