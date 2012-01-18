@@ -3,7 +3,7 @@
 Plugin Name: WP Emphasis
 Plugin URI: http://ben.balter.com/2011/01/11/wordpress-emphasis-plugin/
 Description: WordPress implementation of NYT emphasis magic
-Version: 0.6
+Version: 0.7
 Author: Benjamin J. Balter
 Author URI: http://ben.balter.com/
 License: GPL2

@@ -37,6 +37,9 @@ Once installed, simply navigate to any page and double tap shift to get activate
 
 == Changelog ==
 
+= 0.7 =
+* Removed unnecessary database call on page load
+
 = 0.6 =
 * Removed prototype support
 * Default paragraph selector now works with most installs
