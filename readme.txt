@@ -4,7 +4,7 @@ Donate link: http://ben.balter.com/donate/
 Tags: emphasis, highlight, nyt, new york times, permalinks, journalism
 Requires at least: 3.0
 Tested up to: 3.3
-Stable tag: 0.6
+Stable tag: 0.7
 
 One-click implementation of the New York Times open-source emphasis script for highlighting and permalinking text.
 
